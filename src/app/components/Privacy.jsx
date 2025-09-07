@@ -31,7 +31,7 @@ const Privacy = () => {
   return (
     <div className="Privacy bg-[#F5F5F7] w-full h-auto">
       <div className="flex justify-between pt-10 sm:mx-15 md:mx-15 mx-4 sm:flex-row md:flex-row flex-col items-center">
-        <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl whitespace-normal sm:whitespace-nowrap text-center sm:text-left">
+        <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl text-wrap text-center sm:text-left">
           Find the privacy you’re searching for.
         </h1>
       </div>
