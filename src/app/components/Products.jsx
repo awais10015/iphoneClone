@@ -33,7 +33,7 @@ gsap.registerPlugin(ScrollTrigger);
 
   return (
     <div className="Products bg-[#F5F5F7] mt-10 w-full">
-      {/* Header Section */}
+     
       <div className="flex flex-col sm:flex-row justify-between items-center sm:items-start px-6 sm:px-16 md:px-20 pt-10 gap-4 text-center sm:text-left">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">
           Explore the Lineup
@@ -43,7 +43,7 @@ gsap.registerPlugin(ScrollTrigger);
         </h4>
       </div>
 
-      {/* Scrollable Cards Section */}
+     
       <div className="overflow-x-auto scrollbar-hide mt-10">
         <div className="flex gap-5 px-6 sm:px-16 md:px-20 w-fit">
           <ProductCard

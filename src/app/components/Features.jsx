@@ -22,11 +22,11 @@ const Features = () => {
         // markers: true,
       },
     });
-  }, []); // empty deps ensures this runs once
+  }, []); 
 
   return (
     <div className="Cards w-full">
-      {/* Heading */}
+     
       <div
         className="w-full px-4 sm:px-10 lg:pl-20 text-start 
         text-3xl sm:text-5xl md:text-5xl lg:text-7xl 
@@ -35,7 +35,7 @@ const Features = () => {
         Get to know iPhone.
       </div>
 
-      {/* Scrollable Cards */}
+   
       <div className="overflow-x-auto scrollbar-hide mt-10">
         <div
           className="flex gap-5 w-fit 
